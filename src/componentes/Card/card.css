@@ -1,0 +1,74 @@
+.container-card{
+    height: 400px;
+    width: 350px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #c3d1ff;
+    background: linear-gradient( 330deg, #c3d1ff, 44% #ffea9e 98%);
+    border-radius: 20px;
+    box-shadow: 5px 5px #c8c8c8;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.titulo_temp_atual{
+    display: flex;
+}
+
+.temp_atual{
+    font-size: 100px;
+    color: #000;
+}
+
+.conteudo p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+/* .previsao{
+
+} */
+
+.max_min{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.max_min p{
+    padding: 10px;
+}
+
+.sensacao{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+} 
+
+.sensacaoTermica{
+    padding-bottom: 20px;
+}
+
+.complemento{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.complemento p{
+    padding: 0px 10px 10px 10px;
+}
+
+/* .uv{
+
+}
+
+.umidade{
+
+} */

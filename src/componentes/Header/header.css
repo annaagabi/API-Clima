@@ -1,0 +1,30 @@
+*{ /* É o seletor universal */
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #5297FF;
+    height: 70px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.link-header{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.link-home{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-home:hover{
+    border-bottom: 5px solid #fff;
+    cursor: pointer;
+}
